@@ -6,7 +6,6 @@ export const HomePage = () => {
   return (
     <>
     <div>
-
        <Hero />
        <Hero2 />
     </div>

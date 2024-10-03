@@ -15,7 +15,7 @@ export const Navbar = () => {
 <>
     <div className='sticky top-0 bg-[#fefbf7] z-50'>
         <div className='flex justify-between items-center h-20 max-w-[1240px] mx-auto px-4 text-[#f29b53]'>
-            <img className='md:size-36 size-24 hover:scale-105 hover:cursor-pointer duration-300' src={logo} alt="Logo" />
+        <NavLink to="/"><img className='md:size-36 size-24 hover:scale-105 hover:cursor-pointer duration-300' src={logo} alt="Logo" /></NavLink>
             <ul className='hidden md:flex text-xl font-bold font-principal'>
                 <NavLink className='px-4 py-2 cursor-pointer rounded-lg hover:bg-[#cb627f] hover:scale-110 hover:text-white duration-300' to="/">Home</NavLink>
                 <NavLink className='px-4 py-2 cursor-pointer rounded-lg hover:bg-[#cb627f] hover:scale-110 hover:text-white duration-300' to="/Portfolio">Portfolio</NavLink>
